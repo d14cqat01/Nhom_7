@@ -20,13 +20,15 @@ import java.util.ArrayList;
 
 public class Tongquan extends AppCompatActivity implements View.OnClickListener{
     private Button bct,btn,btq;
-    TextView tv;
+    TextView conlai,tvthu,tvchi;
     ListView lw;
     ArrayList<Money> mangMoney;
     ListviewAdapter listviewAdapter;
     SQLite sqLite;
     public static final String VITRI = "vitri";
-    int sum = 1000000;
+    int thu=0;
+    int chi=0;
+    int cl=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,26 +48,24 @@ public class Tongquan extends AppCompatActivity implements View.OnClickListener{
     }
 
     private void tongtien() {
-//        for(int i=0;i<mangMoney.size ();i++){
-//            if(mangMoney.get (i).getMucdich ()==1){
-//                String tmp =mangMoney.get (i).getSotien ();
-//                String so ="";
-//                for(int j=0;j<tmp.length ()-2;j++){
-//                    so += tmp.charAt (i);
-//                }
-//                int tien = Integer.parseInt (so);
-//                sum +=tien;
-//            }else{
-//                String tmp =mangMoney.get (i).getSotien ();
-//                String so ="";
-//                for(int j=0;j<tmp.length ()-2;j++){
-//                    so += tmp.charAt (i);
-//                }
-//                int tien = Integer.parseInt (so);
-//                sum -=tien;
-//            }
-//        }
-        tv.setText (sum+" đ");
+        for(int i=0;i<mangMoney.size ();i++){
+            if(mangMoney.get (i).getMucdich ()==1){
+                String tmp =mangMoney.get (i).getSotien ();
+                int so = Integer.parseInt (tmp);
+                thu += so;
+            }else{
+                String tmp =mangMoney.get (i).getSotien ();
+                int so = Integer.parseInt (tmp);
+                chi +=so;
+            }
+        }
+        cl = thu - chi;
+        String a = String.valueOf (cl);
+        conlai.setText (a+" VNĐ");
+        a = String.valueOf (thu);
+        tvthu.setText (a+" VNĐ");
+        a= String.valueOf (chi);
+        tvchi.setText (a+" VNĐ");
     }
 
 
@@ -74,7 +74,9 @@ public class Tongquan extends AppCompatActivity implements View.OnClickListener{
         btn = (Button) findViewById (R.id.btn);
         btq = (Button) findViewById (R.id.btq);
         lw = (ListView) findViewById (R.id.lwtq);
-        tv = (TextView) findViewById (R.id.conlai);
+        conlai = (TextView) findViewById (R.id.sum);
+        tvchi = (TextView) findViewById (R.id.chi);
+        tvthu = (TextView) findViewById (R.id.thu);
 
 
         btq.setOnClickListener (this);
@@ -144,6 +146,7 @@ public class Tongquan extends AppCompatActivity implements View.OnClickListener{
 
     private void doclickadd() {
         Intent in = new Intent (Tongquan.this,Add.class);
+        in.putExtra ("cl",String.valueOf (cl));
         startActivity (in);
     }
 
@@ -167,10 +170,14 @@ public class Tongquan extends AppCompatActivity implements View.OnClickListener{
 
     private void doclickbct() {
         Intent in = new Intent (Tongquan.this,Chitieu.class);
+        in.putExtra ("cl",String.valueOf (cl));
+        in.putExtra ("chi",String.valueOf (chi));
         startActivity (in);
     }
     private void doclickbtn() {
         Intent in = new Intent (Tongquan.this,ThuNhap.class);
+        in.putExtra ("cl",String.valueOf (cl));
+        in.putExtra ("thu",String.valueOf (thu));
         startActivity (in);
     }
 }

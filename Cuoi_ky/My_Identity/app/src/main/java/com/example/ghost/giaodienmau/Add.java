@@ -24,6 +24,7 @@ public class Add extends AppCompatActivity implements View.OnClickListener{
     SQLite sqLite;
     Dialog dialog;
     int flag = 1;
+    int cl;
     public static final String BUNDLE = "bundle";
     public static final String LYDO = "lydo";
     public static final String SOTIEN = "sotien";
@@ -33,7 +34,9 @@ public class Add extends AppCompatActivity implements View.OnClickListener{
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_add);
         ConnectView();
-
+        Intent in = getIntent ();
+        String tmp = in.getStringExtra ("cl");
+        cl = Integer.parseInt (tmp);
     }
 
     private void ConnectView() {
@@ -67,11 +70,26 @@ public class Add extends AppCompatActivity implements View.OnClickListener{
             return;
         }
         sqLite = new SQLite (Add.this);
-        Money money = new Money (flag,sotien.getText ().toString ()+"",lydo.getText ().toString ()+"");
-        mangMoney = new ArrayList<> ();
-        sqLite.loadData (mangMoney);
-        mangMoney.add (money);
-        sqLite.saveData (mangMoney);
+        String a = sotien.getText ().toString ();
+        int so = Integer.parseInt (a);
+        if(flag==1){
+            Money money = new Money (flag,sotien.getText ().toString ()+"",lydo.getText ().toString ()+"");
+            mangMoney = new ArrayList<> ();
+            sqLite.loadData (mangMoney);
+            mangMoney.add (money);
+            sqLite.saveData (mangMoney);
+        }
+        else if(cl>=so){
+            Money money = new Money (flag,sotien.getText ().toString ()+"",lydo.getText ().toString ()+"");
+            mangMoney = new ArrayList<> ();
+            sqLite.loadData (mangMoney);
+            mangMoney.add (money);
+            sqLite.saveData (mangMoney);
+        }
+        else{
+            Toast.makeText (this,"Bạn đã chi nhiều hơn số tiền mình có.",Toast.LENGTH_LONG).show ();
+            Toast.makeText (this,"Bạn không được chi",Toast.LENGTH_LONG).show ();
+        }
         Intent in = new Intent (Add.this,Tongquan.class);
         startActivity (in);
     }

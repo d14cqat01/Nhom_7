@@ -58,7 +58,7 @@ public class ListviewAdapter extends ArrayAdapter<Money> {
         final Money p = mangMoney.get(position);
 
         holder.tvld.setText ("Lý do : "+p.getLydo ());
-        holder.tvst.setText ("Số tiền : "+p.getSotien ());
+        holder.tvst.setText ("Số tiền : "+p.getSotien ()+" VNĐ");
         if(p.getMucdich ()==1){
             holder.img.setImageResource (R.drawable.plus);
         }
