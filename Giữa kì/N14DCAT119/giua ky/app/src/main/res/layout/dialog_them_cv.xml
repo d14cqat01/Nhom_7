@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#d5e2f5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/ten_cv"
+        android:hint="Tên công việc"
+        android:background="@drawable/custom_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/noidung_cv"
+        android:hint="Nội dung"
+        android:background="@drawable/custom_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/start_cv"
+        android:hint="Thời gian bắt đầu"
+        android:background="@drawable/custom_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/end_cv"
+        android:hint="Thời gian kết thúc"
+        android:background="@drawable/custom_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/ghichu_cv"
+        android:hint="Ghi chú"
+        android:background="@drawable/custom_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/add_cv"
+            android:background="#82a3af"
+            android:textColor="#f92a2a"
+            android:text="ADD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/cancel_cv"
+            android:background="#82a3af"
+            android:textColor="#f92a2a"
+            android:text="CanCel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

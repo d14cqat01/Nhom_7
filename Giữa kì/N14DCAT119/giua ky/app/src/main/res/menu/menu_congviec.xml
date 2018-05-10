@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:title="Quản Lý Công Việc"
+    android:id="@+id/menu_qlcv"
+        >
+    </item>
+    <item
+    android:title="Thêm Công Việc"
+    android:id="@+id/menu_tcv"
+        >
+    </item>
+</menu>

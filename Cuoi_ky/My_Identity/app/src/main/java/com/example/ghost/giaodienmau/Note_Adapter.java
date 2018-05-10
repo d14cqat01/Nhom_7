@@ -3,6 +3,7 @@ package com.example.ghost.giaodienmau;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -76,6 +77,7 @@ public class Note_Adapter extends BaseExpandableListAdapter {
         LayoutInflater inflater= (LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         view=inflater.inflate(R.layout.note_child,null);
         TextView textView=(TextView)view.findViewById(R.id.textChildNote);
+        textView.setMovementMethod(new ScrollingMovementMethod());
         final Note_class_011 note1=noteclass.get(pos);
         textView.setText(note1.getNoidung());
         TextView textClock=(TextView) view.findViewById(R.id.textClock_note);

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9aa9a8"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="List Công Việc"
+        android:textColor="#f50f16"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/timkiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/custom_edit"
+        android:hint="Tìm kiếm" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9aa9a8"
+        android:orientation="horizontal"
+        android:paddingLeft="48dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="Name" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="Content" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="Note" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listcv_quanly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>
