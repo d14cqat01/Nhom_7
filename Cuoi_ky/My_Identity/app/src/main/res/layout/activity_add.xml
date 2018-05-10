@@ -18,9 +18,18 @@
                 android:id="@+id/etmoney"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:text="0 đ"
+                android:hint="0"
+                android:layout_weight="9"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:inputType="number"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
                 android:layout_weight="1"
-                android:gravity="center"/>
+                android:text="VNĐ"
+                android:gravity="left|center"
+                android:textSize="15dp"/>
 
         </TableRow>
         <TableRow
