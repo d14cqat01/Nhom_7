@@ -31,7 +31,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:hint="Ten ca nhan/to chuc" />
+            android:hint="Tên cá nhân/tổ chức" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -50,7 +50,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:hint="Thanh pho/Tinh" />
+            android:hint="Thành phố/Tỉnh" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -71,7 +71,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:hint="Quan/Huyen" />
+            android:hint="Quận/Huyện" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -92,7 +92,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:hint="Dia chi" />
+            android:hint="Địa chỉ" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -121,7 +121,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:hint="Noi dung" />
+            android:hint="Nội dung" />
     </LinearLayout>
 
     <LinearLayout

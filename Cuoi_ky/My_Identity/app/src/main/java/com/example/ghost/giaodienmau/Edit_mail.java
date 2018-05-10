@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -85,7 +87,7 @@ public class Edit_mail extends AppCompatActivity {
             public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
                 if (databaseError == null) {
                     Toast.makeText( Edit_mail.this, "Lưu thành công", Toast.LENGTH_SHORT).show();
-                    String noidung = "Bạn đã thay đổi số điện thoại thành "+ email;
+                    String noidung = "Bạn đã thay đổi email thành "+ email;
 
                     long tim=System.currentTimeMillis();
                     SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd hh:mm");
@@ -137,5 +139,27 @@ public class Edit_mail extends AppCompatActivity {
         dialog.show();
 
 
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.khancap, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+
+
+            case R.id.khancap: {
+                Intent in = new Intent(Edit_mail.this, KhanCapActivity.class);
+                startActivity(in);
+                break;
+            }
+
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

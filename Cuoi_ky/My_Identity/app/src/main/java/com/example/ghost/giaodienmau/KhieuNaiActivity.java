@@ -48,7 +48,7 @@ public class KhieuNaiActivity extends AppCompatActivity {
         ID = Global.getId();
         username = Global.getUsername();
         password = Global.getPassword();
-        Toast.makeText(KhieuNaiActivity.this, ID, Toast.LENGTH_SHORT).show();
+
         edit_ten = findViewById(R.id.edit_ten);
         edit_thanhpho = findViewById(R.id.edit_thanhpho);
         edit_quan = findViewById(R.id.edit_quan);

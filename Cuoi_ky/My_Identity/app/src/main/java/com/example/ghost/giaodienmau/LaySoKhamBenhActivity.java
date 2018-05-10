@@ -114,7 +114,7 @@ public class LaySoKhamBenhActivity extends AppCompatActivity {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(LaySoKhamBenhActivity.this, spinner.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
@@ -136,7 +136,7 @@ public class LaySoKhamBenhActivity extends AppCompatActivity {
                 spinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                     @Override
                     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                        Toast.makeText(LaySoKhamBenhActivity.this, spinner1.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
+
                         number = i;
                         database.child("CSYT").child("STT").child(String.valueOf(number)).addValueEventListener(new ValueEventListener() {
                             @Override

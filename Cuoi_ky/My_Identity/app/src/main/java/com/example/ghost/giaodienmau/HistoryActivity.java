@@ -156,19 +156,24 @@ public class HistoryActivity extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.context_menu, menu);
+        getMenuInflater().inflate(R.menu.khancap, menu);
+
         return super.onCreateOptionsMenu(menu);
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         switch (id) {
-            case R.id.back:
-                // Gọi màn hình AditionSportActivity
-                Intent in = new Intent (HistoryActivity.this,Main2_011.class);
-                startActivity (in);
+
+
+            case R.id.khancap: {
+                Intent in = new Intent(HistoryActivity.this, KhanCapActivity.class);
+                startActivity(in);
+                break;
+            }
+
         }
+
         return super.onOptionsItemSelected(item);
     }
 }

@@ -3,6 +3,8 @@ package com.example.ghost.giaodienmau;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -114,5 +116,27 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
           }
 
 
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.khancap, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+
+
+            case R.id.khancap: {
+                Intent in = new Intent(LoginActivity.this, KhanCapActivity.class);
+                startActivity(in);
+                break;
+            }
+
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

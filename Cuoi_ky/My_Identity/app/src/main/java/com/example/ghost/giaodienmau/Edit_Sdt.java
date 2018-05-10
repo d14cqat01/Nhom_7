@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -163,6 +165,28 @@ public class Edit_Sdt extends AppCompatActivity {
         dialog.show();
 
 
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.khancap, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+
+
+            case R.id.khancap: {
+                Intent in = new Intent(Edit_Sdt.this, KhanCapActivity.class);
+                startActivity(in);
+                break;
+            }
+
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 }
