@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">184427373820-v7fohojoq8887bsnsg6i9076rntcpq2e.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://taodanghoangcoi.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">184427373820</string>
+    <string name="google_api_key" translatable="false">AIzaSyD8AgYDxUfdle3X6yMZZdqk7EGmAc01bNM</string>
+    <string name="google_app_id" translatable="false">1:184427373820:android:197e9158d7f35ce2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD8AgYDxUfdle3X6yMZZdqk7EGmAc01bNM</string>
+    <string name="google_storage_bucket" translatable="false">taodanghoangcoi.appspot.com</string>
+    <string name="project_id" translatable="false">taodanghoangcoi</string>
+</resources>

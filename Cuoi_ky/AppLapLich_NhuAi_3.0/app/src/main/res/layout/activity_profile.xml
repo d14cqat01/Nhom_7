@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99CCCC"
+    >
+
+    <ImageView
+        android:id="@+id/image_login"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rememberme"
+        tools:ignore="ContentDescription"
+        />
+    <EditText
+        android:id="@+id/mail_login"
+        android:layout_below="@+id/image_login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:hint="Mail"
+        android:textStyle="bold"
+        android:textColorHint="#006699"
+        android:textColor="#00688B"
+
+
+        />
+
+    <EditText
+        android:id="@+id/pwd_login"
+        android:layout_width="199dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mail_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_action_passwd"
+        android:hint="Password"
+        android:textColor="#00688B"
+        android:textColorHint="#006699"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/button_goto_login"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/pwd_login"
+        android:layout_centerHorizontal="true"
+        android:background="#528B8B"
+        android:text="Log In"
+        android:textColor="#F5DEB3"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/signup_text"
+        android:layout_below="@id/button_goto_login"
+        android:text="Haven't an account yet?"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/button_goto_signup"
+        android:layout_below="@id/signup_text"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="#528B8B"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Sign Up"
+        android:textColor="#F5DEB3"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:id="@+id/button_cancel_profile"
+        android:layout_below="@id/button_goto_signup"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="#528B8B"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Cancel"
+        android:textColor="#F5DEB3"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "664383122883",
+    "firebase_url": "https://truyen-b6eca.firebaseio.com",
+    "project_id": "truyen-b6eca",
+    "storage_bucket": "truyen-b6eca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664383122883:android:fb4af783875de6b0",
+        "android_client_info": {
+          "package_name": "com.example.aipham.truyen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664383122883-h93ms20t7td64lt9pjtkdgrm3b40vevd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCwdRQk2VS5QV2ifLOipyuygd9Z1G1nf4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

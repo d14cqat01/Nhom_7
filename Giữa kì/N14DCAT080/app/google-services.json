@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "553335657440",
+    "firebase_url": "https://haohao-dad8e.firebaseio.com",
+    "project_id": "haohao-dad8e",
+    "storage_bucket": "haohao-dad8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553335657440:android:915500fb899ddeba",
+        "android_client_info": {
+          "package_name": "com.example.hao.anhhao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553335657440-5ceq2f59mqu05145v18jcbicllptea6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg_G3iJcLCtbxjJVUGnNBhj8p6ovuVJYs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

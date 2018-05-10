@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/tv_id"
+        android:text="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_width="80dp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Nguyen Chien Thang"
+            android:id="@+id/tv_name"
+            />
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="0975567899"
+            android:id="@+id/tv_number"
+            />
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="FC Barcelona"
+            android:id="@+id/tv_address"
+            />
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="thangke@gmail.com"
+            android:id="@+id/tv_email"
+            />
+    </LinearLayout>
+
+</LinearLayout>

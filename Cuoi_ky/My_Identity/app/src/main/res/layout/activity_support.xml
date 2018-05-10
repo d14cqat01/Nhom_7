@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Hỗ Trợ"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#8e0f0f"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Mọi thắc mắc hoặc cần hỗ trợ xin vui lòng liên hệ: "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#d6f7f1"
+        android:orientation="horizontal"
+        android:layout_weight="2" >
+        <ImageView
+            android:src="@drawable/android_police"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#060a54"
+            android:layout_height="match_parent"
+            android:text="BỘ CÔNG AN TPHCM"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Địa chỉ: 330 Nguyễn Du, Quận 1, TPHCM"
+        android:textSize="20dp"
+        />
+    <LinearLayout
+        android:weightSum="6"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:text="Điện thoại:"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:textStyle="italic"
+            android:textColor="#0099ff"
+            android:id="@+id/text_sdt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.4"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Fax: (028).38.255.078"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Email:D14CQAT01@ptithcm.edu.vn"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

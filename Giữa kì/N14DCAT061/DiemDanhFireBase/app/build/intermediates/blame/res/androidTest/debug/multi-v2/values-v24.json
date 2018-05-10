@@ -1,0 +1,132 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\DiemDanhFireBase\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hoans_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\65a90d21f45e330b15fe3068de226d01\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hoans_000\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f5de87c31d740b877d59e22320c3830d\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "619,685,746,812",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "680,741,807,874"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\thanh\\Desktop\\thanh\\DiemDanhFireBase\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\thanh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bba362143ecd8e0873ef0e40f94ac3a0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\thanh\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\457349fc896a52e21c6f857c57cd13de\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "619,685,746,812",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "680,741,807,874"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\USER\\Desktop\\DiemDanhFireBase\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\686e87862e34edbdcb0501774754de39\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\6d354f5069a6f215d3630ade7790baac\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "619,685,746,812",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "680,741,807,874"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\USER\\Desktop\\android\\DiemDanhFireBase\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\686e87862e34edbdcb0501774754de39\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\6d354f5069a6f215d3630ade7790baac\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "619,685,746,812",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "680,741,807,874"
+                    }
+                }
+            ]
+        }
+    ]
+}

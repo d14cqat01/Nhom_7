@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/editTextTen"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="Input name"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/buttonThem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editTextTen"
+                android:text="Add"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="51dp" />
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextTen"
+                android:layout_toEndOf="@+id/buttonThem"
+                android:text="Update"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="51dp" />
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextTen"
+                android:layout_toEndOf="@+id/buttonUpdate"
+                android:text="Delete"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="51dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listviewHangXe"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+</LinearLayout>

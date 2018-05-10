@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Remember Me</string>
+
+    <string name="nav_drawer_open">Open nav drawer</string>
+    <string name="nav_drawer_close">Close nav drawer</string>
+    <string name="facebook_app_id">150985775753480</string>
+</resources>

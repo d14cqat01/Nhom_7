@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ghost.giaodienmau">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="My Identity"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity android:name=".Main2_011" />
+        <activity android:name=".Main1_011" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".BHYTActivity" />
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".Note_011" />
+        <activity android:name=".Note_add" />
+        <activity android:name=".Note_edit" />
+        <activity android:name=".CanCuocActivity" />
+        <activity android:name=".Edit_mail" />
+        <activity android:name=".Edit_Sdt" />
+        <activity android:name=".BangLaiActivity" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".Tongquan"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ThuNhap" />
+        <activity android:name=".Chitieu" />
+        <activity android:name=".Sua" />
+        <activity android:name=".Add" />
+        <activity android:name=".KhanCapActivity" />
+        <activity android:name=".KhieuNaiActivity" />
+        <activity android:name=".model.OfflineActivity" />
+        <activity android:name=".CaiDatActivity" />
+        <activity android:name=".Support" />
+        <activity android:name=".Link" />
+        <activity android:name=".Facebook" />
+        <activity android:name=".Gmail" />
+        <activity android:name=".About" />
+        <activity android:name=".Rating" />
+        <activity android:name=".LaySoKhamBenhActivity"></activity>
+    </application>
+
+</manifest>

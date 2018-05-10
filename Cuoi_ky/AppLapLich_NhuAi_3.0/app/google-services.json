@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "912324536138",
+    "firebase_url": "https://applaplich.firebaseio.com",
+    "project_id": "applaplich",
+    "storage_bucket": "applaplich.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912324536138:android:1744267c18b81df9",
+        "android_client_info": {
+          "package_name": "com.example.aipham.vietlai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912324536138-2v6u4v349qkun1upvfgntivu4pe45lle.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aipham.vietlai",
+            "certificate_hash": "01238226f3d5bfa0eacdbfa7ca13e560c75d06cf"
+          }
+        },
+        {
+          "client_id": "912324536138-86hm3rcahjsf4adeptvv31akok0krjvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtm6u-TWr-JDjPieqmatf8yBTxmH631Sw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912324536138-86hm3rcahjsf4adeptvv31akok0krjvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

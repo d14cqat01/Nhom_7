@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        android:background="#2a7e1b"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:text="Vị trí"
+
+            android:layout_width="135dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="#000000"
+            android:orientation="vertical"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"></LinearLayout>
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+
+                android:id="@+id/vtgiayto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Giấy tờ gốc" />
+            <LinearLayout
+
+                android:background="#000000"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/vtapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="App" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:text="Loại giấy tờ: "
+
+            android:layout_width="135dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="#000000"
+            android:orientation="vertical"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"></LinearLayout>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <Spinner
+                android:id="@+id/spinnerLuaChon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:background="#ffffff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="#2a7e1b"
+            android:id="@+id/editMucsua"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Mục cần sửa" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/editNdsua"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nội dung cần sửa"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#000000"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="2"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:id="@+id/textView"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="#2a7e1b"
+            android:text="Chọn ảnh" />
+
+
+        <ImageView
+
+            android:id="@+id/imgButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#000000"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/btnGui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gửi yêu cầu" />
+
+
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hủy" />
+    </LinearLayout>
+
+
+</LinearLayout>

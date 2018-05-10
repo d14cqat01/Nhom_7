@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/phonebackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_weight="5.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></LinearLayout>
+    <LinearLayout
+        android:weightSum="8"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:background="@drawable/iconphone1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/edit_sdt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="Số điện thoại mới"
+            android:inputType="phone"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="#3a48e2"
+            android:text="LƯU THAY ĐỔI"
+            android:textColor="#e7ecec"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

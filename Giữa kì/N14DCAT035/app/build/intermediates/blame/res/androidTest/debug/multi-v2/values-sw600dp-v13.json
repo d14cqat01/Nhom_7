@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\USER\\Desktop\\DiemDanhFireBase\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\686e87862e34edbdcb0501774754de39\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\DiemDanhFireBase\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hoans_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\65a90d21f45e330b15fe3068de226d01\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\DiemDanhFireBase\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1fbea3c0c7dc69b08904d4c2ca534b59\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\thanh\\Desktop\\thanh\\DiemDanhFireBase\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\thanh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\bba362143ecd8e0873ef0e40f94ac3a0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "184427373820",
+    "firebase_url": "https://taodanghoangcoi.firebaseio.com",
+    "project_id": "taodanghoangcoi",
+    "storage_bucket": "taodanghoangcoi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184427373820:android:197e9158d7f35ce2",
+        "android_client_info": {
+          "package_name": "com.example.hoans_000.diemdanhfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184427373820-v7fohojoq8887bsnsg6i9076rntcpq2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8AgYDxUfdle3X6yMZZdqk7EGmAc01bNM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

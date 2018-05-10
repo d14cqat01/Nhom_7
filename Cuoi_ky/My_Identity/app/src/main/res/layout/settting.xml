@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ff7800"
+            android:textStyle="bold"
+            android:text="Cài đặt"
+            android:textSize="30dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Hỗ Trợ"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/img1"
+                android:layout_width="165dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:background="@drawable/sp9" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

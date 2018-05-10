@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Danh sách sinh viên"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+       <ImageView
+           android:scaleY="0.9"
+           android:scaleX="0.9"
+           android:background="@drawable/iconname"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"  />
+
+        <EditText
+            android:id="@+id/edit_hoten"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:hint="Nhập tên sinh viên" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:scaleY="0.9"
+            android:scaleX="0.9"
+            android:background="@drawable/iconmssv"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"  />
+
+        <EditText
+            android:id="@+id/edit_mssv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:hint="Nhập mã số sinh viên" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:id="@+id/edit_lop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:hint="Nhập lớp" />
+        <Spinner
+            android:id="@+id/spinner_gioitinh"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="#1254fd"
+            android:text="SAVE CHANGE"
+            android:textColor="#f4f4ee"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_student"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+    </ListView>
+
+</LinearLayout>

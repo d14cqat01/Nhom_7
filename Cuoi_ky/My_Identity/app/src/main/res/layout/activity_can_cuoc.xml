@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/trongdong4"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<ScrollView  android:id="@+id/scrollView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+    <LinearLayout
+
+        android:layout_weight="2"
+        android:weightSum="7"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+
+            android:src="@drawable/banglai"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="4"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:layout_weight="1"
+                android:text="Độc lập - Tự do - Hạnh phúc"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textStyle=""
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:text="CĂN CƯỚC CÔNG DÂN"
+                android:gravity="center"
+                android:textColor="#ff0022"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:gravity="center"
+            android:text="Số:"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/text_so"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textColor="#ff002b"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:gravity="center|left"
+            android:text="Họ và tên:"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/text_hoten"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:gravity="center|left"
+            android:text="Ngày sinh:"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/text_ngaysinh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="4"
+            android:weightSum="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center|left"
+                android:text="Giới tính:"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/text_gioitinh"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="4"
+            android:weightSum="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:text="Quốc tịch:"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/text_quoctich"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:gravity="center|left"
+            android:text="Quê quán:"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/text_quequan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="top"
+            android:text="Nơi thường trú:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_diachi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="7"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textSize="20sp"
+            android:text="Đặc điểm nhận dạng:"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/text_dacdiem"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="7"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+
+            android:textSize="20sp"
+            android:text="Có giá trị đến:"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/text_giatri"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="top|center"
+
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!--</ScrollView>-->
+
+</LinearLayout>

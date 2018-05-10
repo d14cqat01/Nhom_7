@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="match_parent"
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Kết nối tài khoản của bạn"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:background="#e8f1e7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/android_facebook"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:gravity="left"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Facebook"
+            android:layout_weight="3"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/bFb"
+            android:layout_marginTop="25dp"
+            android:background="#7575ed"
+            android:textColor="#fff"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="Kết nối"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="#e8f1e7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/android_gmail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:gravity="left"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Gmail"
+            android:layout_weight="3"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/bGmail"
+            android:layout_marginTop="25dp"
+            android:background="#7575ed"
+            android:textColor="#fff"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:text="Kết nối"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

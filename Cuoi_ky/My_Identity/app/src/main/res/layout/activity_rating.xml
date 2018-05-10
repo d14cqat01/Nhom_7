@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#313e78"
+        android:text="Vui lòng xếp hạng chất lượng"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="1"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="Viết đánh giá ngắn"
+        android:textStyle="bold"
+        android:textColor="#313e78"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Cho chúng tôi biết suy nghĩ của bạn"
+        android:layout_weight="2"
+        android:textStyle="italic"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:text="Gửi"
+        android:textColor="#ffff"
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:background="#313e78"/>
+</LinearLayout>
